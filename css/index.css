@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url(header.css);
+
+
+
+:root {
+    --FeaturedTypograph: 'Playfair Display', serif;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr)
+}
